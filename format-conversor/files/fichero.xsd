@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+  <xs:element name="alumnos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="alumno" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="asignatura" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="asistencia">
+                        <xs:simpleType>    
+                            <xs:restriction base="xs:float">      
+                                <xs:minInclusive value="0.0"/>      
+                                <xs:maxInclusive value="100.00"/>    
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="nota">
+                        <xs:simpleType>    
+                            <xs:restriction base="xs:float">      
+                                <xs:minInclusive value="0.0"/>      
+                                <xs:maxInclusive value="10.00"/>    
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="entregable" type="xs:boolean"/>
+                    <xs:element type="xs:float" name="notaEntregable" minOccurs="0"/>
+                    <xs:element name="horas">
+                        <xs:simpleType>    
+                            <xs:restriction base="xs:float">      
+                                <xs:minInclusive value="0.0"/>      
+                                <xs:maxInclusive value="3.00"/>    
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="atencionProfesor">
+                        <xs:simpleType>    
+                            <xs:restriction base="xs:byte">      
+                                <xs:minInclusive value="1"/>      
+                                <xs:maxInclusive value="5"/>    
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="motivacionProfesor">
+                        <xs:simpleType>    
+                            <xs:restriction base="xs:byte">      
+                                <xs:minInclusive value="1"/>      
+                                <xs:maxInclusive value="5"/>    
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="nombre" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

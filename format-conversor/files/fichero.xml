@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alumnos>
+    <alumno id="1">
+        <asignatura nombre="Sistemas de información">
+            <asistencia>82.30</asistencia>
+            <nota>7.2</nota>
+            <entregable>true</entregable>
+            <notaEntregable>5.1</notaEntregable>
+            <horas>2</horas>
+            <atencionProfesor>3</atencionProfesor>
+            <motivacionProfesor>4</motivacionProfesor>
+        </asignatura>
+        <asignatura nombre="Inteligencia artificial">
+            <asistencia>60.42</asistencia>
+            <nota>6.3</nota>
+            <entregable>false</entregable>
+            <horas>3</horas>
+            <atencionProfesor>4</atencionProfesor>
+            <motivacionProfesor>5</motivacionProfesor>
+        </asignatura>
+        <asignatura nombre="Sistemas concurrentes y distribuidos">
+            <asistencia>86.12</asistencia>
+            <nota>4.5</nota>
+            <entregable>true</entregable>
+            <notaEntregable>7.7</notaEntregable>
+            <horas>1</horas>
+            <atencionProfesor>3</atencionProfesor>
+            <motivacionProfesor>2</motivacionProfesor>
+        </asignatura>
+        <asignatura nombre="Ingenieria web II">
+            <asistencia>55.00</asistencia>
+            <nota>7.1</nota>
+            <entregable>false</entregable>
+            <horas>3</horas>
+            <atencionProfesor>2</atencionProfesor>
+            <motivacionProfesor>2</motivacionProfesor>
+        </asignatura>
+        <asignatura nombre="Seguridad informática">
+            <asistencia>79.55</asistencia>
+            <nota>5.8</nota>
+            <entregable>true</entregable>
+            <notaEntregable>4.7</notaEntregable>
+            <horas>2.5</horas>
+            <atencionProfesor>4</atencionProfesor>
+            <motivacionProfesor>3</motivacionProfesor>
+        </asignatura>
+    </alumno>
+    <alumno id="2">
+        <asignatura nombre="Sistemas de información">
+            <asistencia>95.30</asistencia>
+            <nota>2.2</nota>
+            <entregable>true</entregable>
+            <notaEntregable>9.1</notaEntregable>
+            <horas>3</horas>
+            <atencionProfesor>5</atencionProfesor>
+            <motivacionProfesor>4</motivacionProfesor>
+        </asignatura>
+        <asignatura nombre="Inteligencia artificial">
+            <asistencia>74.42</asistencia>
+            <nota>5.3</nota>
+            <entregable>false</entregable>
+            <horas>1</horas>
+            <atencionProfesor>3</atencionProfesor>
+            <motivacionProfesor>2</motivacionProfesor>
+        </asignatura>
+        <asignatura nombre="Sistemas concurrentes y distribuidos">
+            <asistencia>76.12</asistencia>
+            <nota>5.5</nota>
+            <entregable>false</entregable>
+            <horas>2</horas>
+            <atencionProfesor>4</atencionProfesor>
+            <motivacionProfesor>4</motivacionProfesor>
+        </asignatura>
+        <asignatura nombre="Ingenieria web II">
+            <asistencia>95.00</asistencia>
+            <nota>11</nota>
+            <entregable>false</entregable>
+            <horas>2</horas>
+            <atencionProfesor>5</atencionProfesor>
+            <motivacionProfesor>5</motivacionProfesor>
+        </asignatura>
+        <asignatura nombre="Seguridad informática">
+            <asistencia>59.55</asistencia>
+            <nota>6.8</nota>
+            <entregable>true</entregable>
+            <notaEntregable>7.7</notaEntregable>
+            <horas>1.5</horas>
+            <atencionProfesor>3</atencionProfesor>
+            <motivacionProfesor>4</motivacionProfesor>
+        </asignatura>
+    </alumno>
+</alumnos>
