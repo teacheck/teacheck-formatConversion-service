@@ -21,11 +21,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.vertx.core.json.JsonObject;
 import io.vertx.core.logging.Logger;
 import io.vertx.core.logging.LoggerFactory;
-import io.vertx.ext.web.client.WebClient;
 
-public class Funciones {
+public class Conversor {
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(Funciones.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(Conversor.class);
 	
 	public static boolean validateXMLSchema(String xsdPath, String xmlString){
         

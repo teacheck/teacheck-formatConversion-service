@@ -3,6 +3,11 @@ version: "2.1"
 services:
   conversor:
     image: maven:3-jdk-8-alpine
+    environment:
+      - HTTP_SERVER_PORT
+      - HTTP_SERVER_HOST
+      - DB_SERVICE_PORT
+      - DB_SERVICE_HOST
     ports:
       - 8080:8080
     volumes:
